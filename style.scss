@@ -34,16 +34,10 @@ body {
   }
 }
 ul {
-  list-style: none;
 }
 a {
-  text-decoration: none;
-  color: #000;
-  font-size: 1.5rem;
-  font-weight: 500;
 }
 p {
-  line-height: 1.7;
 }
 /* start header */
 header {
@@ -69,10 +63,8 @@ header {
 // start service
 .service {
   .container {
-    background: $main-bg-color;
     h2 {
       span {
-        color: $main-color;
       }
     }
     p {
