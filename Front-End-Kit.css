@@ -463,8 +463,12 @@
   outline: none;
 }
 /* anchor link class */
-.tx-dec {
+.tx-dec-non {
   text-decoration: none;
+}
+/* list class */
+.li-unstyle {
+  list-style: none;
 }
 /* border class */
 .br-w-1 {
