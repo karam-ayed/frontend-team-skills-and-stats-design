@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+
+.container {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 730px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    max-width: 950px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+p {
+  line-height: 1.7;
+}
+
+/* start header */
+header .container {
+  height: 72px;
+}
+header .container .links ul li a {
+  transition: all 0.2s ease-out;
+}
+header .container .links ul li a:hover {
+  color: #06aaf4;
+}
+
+.service .container {
+  background: #f6f6f6;
+}
+.service .container h2 span {
+  color: #06aaf4;
+}
+.items .container .item img {
+  width: 120px;
+  height: 100px;
+}
+.items .container .item p {
+  color: #343334;
+}
+
+.about-us .container {
+  background-color: #f6f6f6;
+}
+.about-us .container .image img {
+  width: 100%;
+}
+.counter .container .card h2 {
+  font-size: 3.5rem;
+}
+
+.skill .container .items .item p {
+  width: 120px;
+}
+.skill .container .items .item div {
+  background-color: #fff;
+  width: 70vw;
+}
+.skill .container .items .item div span {
+  background-color: #06aaf4;
+  padding: 5px 10px;
+}
+
+footer {
+  background-color: #333333;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

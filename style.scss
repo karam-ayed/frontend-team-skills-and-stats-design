@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+$main-color: #06aaf4;
+$main-bg-color: #f6f6f6;
+$second-bg-color: #eaeaea;
+$color-p: #333;
+$second-color: #343334;
+$padd-top: 40px;
+$padd-bottom: 40px;
+$gap: 20px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+.container {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    max-width: 730px;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    max-width: 950px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 1170px;
+  }
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+p {
+  line-height: 1.7;
+}
+/* start header */
+header {
+  .container {
+    height: 72px;
+
+    .logo {
+    }
+    .links {
+      ul {
+        li {
+          a {
+            transition: all 0.2s ease-out;
+            &:hover {
+              color: $main-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// start service
+.service {
+  .container {
+    background: $main-bg-color;
+    h2 {
+      span {
+        color: $main-color;
+      }
+    }
+    p {
+    }
+  }
+}
+// start items
+.items {
+  .container {
+    .item {
+      img {
+        width: 120px;
+        height: 100px;
+      }
+      h3 {
+      }
+      p {
+        color: $second-color;
+      }
+    }
+  }
+}
+// start about section
+.about-us {
+  .container {
+    background-color: $main-bg-color;
+    .image {
+      img {
+        width: 100%;
+      }
+    }
+    .text {
+      h3 {
+      }
+      p {
+      }
+    }
+  }
+}
+// start counter section
+.counter {
+  .container {
+    .card {
+      &:nth-of-type(1) {
+      }
+      &:nth-of-type(2) {
+      }
+      &:nth-of-type(3) {
+      }
+      h2 {
+        font-size: 3.5rem;
+      }
+    }
+  }
+}
+// start skill
+.skill {
+  .container {
+    h2 {
+    }
+    .items {
+      .item {
+        p {
+          width: 120px;
+        }
+        div {
+          background-color: #fff;
+          width: 70vw;
+          span {
+            background-color: $main-color;
+
+            padding: 5px 10px;
+          }
+        }
+      }
+    }
+  }
+}
+// start footer section
+footer {
+  background-color: #333333;
+  color: #fff;
+  .container {
+    p {
+      span {
+      }
+    }
+  }
+}
