@@ -1,87 +1,66 @@
 /* positoin classes */
-
 .p-fixed {
   position: fixed;
 }
-
 .p-abs {
   position: absolute;
 }
-
 .p-rel {
   position: relative;
 }
-
 .p-sticky {
   position: sticky;
 }
-
 .top-0 {
   top: 0;
 }
-
 .left-0 {
   left: 0;
 }
-
 .bottom-0 {
   bottom: 0;
 }
-
 .right-0 {
   right: 0;
 }
 
 /* Flex-Box Classes */
-
 .flex {
   display: flex;
 }
-
 .flex-column {
   flex-direction: column;
 }
-
 .flex-justify-start {
   justify-content: flex-start;
 }
-
 .flex-justify-center {
   justify-content: center;
 }
-
 .flex-justify-end {
   justify-content: flex-end;
 }
-
 .flex-justify-between {
   justify-content: space-between;
 }
-
 .flex-justify-around {
   justify-content: space-around;
 }
-
 .flex-align-start {
   align-items: flex-start;
 }
-
 .flex-align-center {
   align-items: center;
 }
-
 .flex-align-end {
   align-items: flex-end;
 }
-
 .flex-align-baseline {
   align-items: baseline;
 }
-
 .flex-grow-1 {
   flex-grow: 1;
 }
-
 .flex-shrink-0 {
   flex-shrink: 0;
 }
@@ -94,7 +73,6 @@
 .just-self-item-center {
   justify-self: center;
 }
-
 .align-self-item-start {
   align-self: flex-start;
 }
@@ -104,47 +82,38 @@
 .align-self-item-center {
   align-self: center;
 }
+
 /* Text Classes */
 .t-center {
   text-align: center;
 }
-
 .t-left {
   text-align: left;
 }
-
 .t-right {
   text-align: right;
 }
-
 .t-ellipsis {
   text-overflow: ellipsis;
 }
-
 .t-upper {
   text-transform: uppercase;
 }
-
 .t-lower {
   text-transform: lowercase;
 }
-
 .t-capitalize {
   text-transform: capitalize;
 }
-
 .t-ident-50 {
   text-indent: 50px;
 }
-
 .t-ident-100 {
   text-indent: 100px;
 }
-
 .l-height-5 {
   line-height: 1.5;
 }
-
 .l-height-6 {
   line-height: 1.6;
 }
@@ -154,15 +123,12 @@
 .l-height-8 {
   line-height: 1.8;
 }
-
 .l-height-2 {
   line-height: 2;
 }
-
 .t-main-color {
   color: #03a9f4;
 }
-
 .t-second-color {
   color: #f6f6f6;
 }
@@ -172,11 +138,14 @@
 .p-sec-color {
   color: #343334;
 }
+.p-third-color {
+  color: #aaa;
+}
 .bg-main-color {
   background-color: #f6f6f6;
 }
 .bg-sec-color {
-  background-color: #eaeaea;
+  background-color: #eee;
 }
 .color-black {
   color: #000;
@@ -199,110 +168,96 @@
 .third-bg-color {
   background-color: #218c74;
 }
+
 /* Font Classes */
 .fs-xxs {
   font-size: xx-small;
 }
-
 .fs-xs {
   font-size: x-small;
 }
-
 .fs-s {
   font-size: small;
 }
-
 .fs-m {
   font-size: medium;
 }
-
 .fs-l {
   font-size: large;
 }
-
 .fs-xl {
   font-size: x-large;
 }
-
 .fs-xxl {
   font-size: xx-large;
 }
-
 .fs-smaller {
   font-size: smaller;
 }
-
 .fs-larger {
   font-size: larger;
 }
-
 .fs-10 {
   font-size: 10px;
 }
-
-.fs-15 {
-  font-size: 15px;
+.fs-12 {
+  font-size: 12px;
 }
-
+.fs-14 {
+  font-size: 14px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-18 {
+  font-size: 18px;
+}
 .fs-20 {
   font-size: 20px;
 }
-
 .fs-24 {
   font-size: 24px;
 }
 .fs-32 {
   font-size: 32px;
 }
-
 .fs-50p {
   font-size: 50%;
 }
-
 .fs-150p {
   font-size: 150%;
 }
-
 .fsty-normal {
   font-style: normal;
 }
-
 .fsty-italic {
   font-style: italic;
 }
-
 .fw-normal {
   font-weight: normal;
 }
-
 .fw-bold {
   font-weight: bold;
 }
-
 .fw-bolder {
   font-weight: bolder;
 }
-
 .fw-lighter {
   font-weight: lighter;
 }
-
 .fw-500 {
   font-weight: 500;
 }
-
 .fw-600 {
   font-weight: 600;
 }
-
 .fw-800 {
   font-weight: 800;
 }
-
 .fw-900 {
   font-weight: 900;
-  color: #f6f6f6;
 }
+
 /* padding class */
 .pad-0 {
   padding: 0;
@@ -328,7 +283,6 @@
 .pad-l-0 {
   padding-left: 0;
 }
-
 .pad-t-10 {
   padding-top: 10px;
 }
@@ -341,7 +295,6 @@
 .pad-l-10 {
   padding-left: 10px;
 }
-
 .pad-t-15 {
   padding-top: 15px;
 }
@@ -354,7 +307,6 @@
 .pad-l-15 {
   padding-left: 15px;
 }
-
 .pad-t-20 {
   padding-top: 20px;
 }
@@ -393,7 +345,6 @@
 .mr-l-0 {
   margin-left: 0;
 }
-
 .mr-t-10 {
   margin-top: 10px;
 }
@@ -403,10 +354,12 @@
 .mr-r-10 {
   margin-right: 10px;
 }
+.mr-r-15 {
+  margin-right: 15px;
+}
 .mr-l-10 {
   margin-left: 10px;
 }
-
 .mr-t-15 {
   margin-top: 15px;
 }
@@ -419,7 +372,6 @@
 .mr-l-15 {
   margin-left: 15px;
 }
-
 .mr-t-20 {
   margin-top: 20px;
 }
@@ -458,6 +410,7 @@
 .mx-wid-100 {
   max-width: 100%;
 }
+
 /* outline class */
 .out-o {
   outline: none;
@@ -466,10 +419,7 @@
 .tx-dec-non {
   text-decoration: none;
 }
-/* list class */
-.li-unstyle {
-  list-style: none;
-}
+
 /* border class */
 .br-w-1 {
   border-width: 1px;
@@ -483,7 +433,6 @@
 .br-w-4 {
   border-width: 4px;
 }
-
 .br-st-so {
   border-style: solid;
 }
@@ -492,47 +441,36 @@
 }
 
 /* grid class */
-
 .grid {
   display: grid;
 }
-
 .grid-column {
   flex-direction: column;
 }
-
 .grid-justify-start {
   justify-content: flex-start;
 }
-
 .grid-justify-center {
   justify-content: center;
 }
-
 .grid-justify-end {
   justify-content: flex-end;
 }
-
 .grid-justify-between {
   justify-content: space-between;
 }
-
 .grid-justify-around {
   justify-content: space-around;
 }
-
 .grid-align-start {
   align-items: flex-start;
 }
-
 .grid-align-center {
   align-items: center;
 }
-
 .grid-align-end {
   align-items: flex-end;
 }
-
 .grid-align-baseline {
   align-items: baseline;
 }
@@ -542,14 +480,12 @@
 .grid-col-2 {
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
 }
-
 .grid-col-3 {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 .grid-col-4 {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
-
 .grid-row-1 {
   grid-template-rows: 1fr;
 }
@@ -559,11 +495,11 @@
 .grid-row-3 {
   grid-template-rows: repeat(3, 1fr);
 }
+
 /* gap-class  */
 .gap-5 {
   gap: 5;
 }
-
 .gap-10 {
   gap: 10px;
 }
@@ -600,7 +536,37 @@
 .p {
   font-size: 16px;
 }
+
 /* image class */
 .img-100 {
   width: 100%;
+}
+
+/* List Style Classes */
+.ls-none {
+  list-style: none;
+}
+.ls-disc {
+  list-style-type: disc;
+}
+.ls-circle {
+  list-style-type: circle;
+}
+.ls-square {
+  list-style-type: square;
+}
+.ls-decimal {
+  list-style-type: decimal;
+}
+.ls-lower-alpha {
+  list-style-type: lower-alpha;
+}
+.ls-upper-alpha {
+  list-style-type: upper-alpha;
+}
+.ls-lower-roman {
+  list-style-type: lower-roman;
+}
+.ls-upper-roman {
+  list-style-type: upper-roman;
 }
